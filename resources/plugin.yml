@@ -1,5 +1,5 @@
 name: NoBadWords
-version: 1.0
+version: 1.1
 description: Custom Replace Words
 author: Maymity
 main: it.maymity.nobadwords.Main

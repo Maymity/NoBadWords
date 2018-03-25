@@ -38,7 +38,7 @@ public class Main extends JavaPlugin implements Listener {
         System.out.println("NoBadWords > Command registred!");
         loadWords();
 
-        SpigotUpdater updater = new SpigotUpdater(this, 0);
+        SpigotUpdater updater = new SpigotUpdater(this, 54919);
         try {
             if (updater.checkForUpdates()) {
                 Utils.getInstance().setBoolUpdate(true);
