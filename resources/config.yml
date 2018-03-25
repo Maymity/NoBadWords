@@ -1,0 +1,14 @@
+settings:
+ config_version: 1.0
+ punish: true
+ check_update_on_join: true
+ prefix: '&7[&cNoBadWords&7]&r '
+
+commands:
+ punish_command: 'tell %player% OH! Don''t write this!'
+
+badwords:
+ - 'fuck'
+
+filters:
+  - hello:hi

@@ -1,0 +1,8 @@
+name: NoBadWords
+version: 1.0
+description: Custom Replace Words
+author: Maymity
+main: it.maymity.nobadwords.Main
+commands:
+  nbw:
+    description: Display the help commands

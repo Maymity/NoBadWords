@@ -1,0 +1,13 @@
+messages:
+ help-commands:
+ - '&7&l&m-----------------------'
+ - '&c&LNoBadWords &7Commands'
+ - '&7Use &e/nbw &7for view this menu'
+ - '&7Use &e/nbw reload &7for reload the plugin'
+ - '&7&l&m-----------------------'
+ must_player: '&cYou must be a player to perform this command!'
+ no_permission: '&cYou don''t have permission to perform this command!'
+ punish_command: 'tell %player% OH! Don''t write this!'
+ replacewith: '&8[&cBIP&8]&r'
+ update_message: '&7A new version of &eNoBadWords &7is available!'
+ reload: '&cPlugin reloaded'
