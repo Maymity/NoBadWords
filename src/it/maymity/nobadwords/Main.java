@@ -77,14 +77,12 @@ public class Main extends JavaPlugin implements Listener {
             System.out.println("&cNewest version: &a" + config_version);
         }
 
-        getConfig().options().copyDefaults(true);
         messages = new Configuration("messages.yml", this, true);
-        saveConfig();
+        saveDefaultConfig();
     }
+
     public void onDisable() {
         System.out.println("NoBadWords > Plugin Disabled");
-        saveConfig();
-        messages.save();
     }
 
     private void registerListeners() {
